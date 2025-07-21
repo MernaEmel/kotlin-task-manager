@@ -4,7 +4,7 @@
 //}
 fun main(){
 ////// Create a data class Task
-data class Task(val title: String, val isDone : Boolean )
+data class Task(val title: String, var isDone : Boolean )
 
 ////// Declare a mutable List of tasks
 val tasks = mutableListOf(
